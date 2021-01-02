@@ -30,7 +30,7 @@ h1{
   padding: 20px;
 }
 
-@media (min-width: 900px){
+@media (min-width: 800px){
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
