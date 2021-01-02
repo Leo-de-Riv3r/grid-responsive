@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    background-color: #e7db31;
+    padding: 4%;
+    min-height: 600px;
+}
+
+.container__div{
+  padding:3%;
+}
+.grid{
+  display: grid;
+  padding:10px;
+  background: #f0c025;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.item{
+  display: grid;
+  padding: 20px;
+}
+
+@media (min-width: 900px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
